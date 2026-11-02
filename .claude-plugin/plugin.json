@@ -1,0 +1,25 @@
+{
+  "name": "deck-gallery",
+  "displayName": "Deck.gallery",
+  "version": "0.1.0",
+  "description": "Find presentation ideas in pitch decks, brand guidelines and annual reports. Explore slide layouts and deck structure through your connected Deck.gallery account.",
+  "author": {
+    "name": "Anymo Ltd",
+    "email": "hey@deck.gallery",
+    "url": "https://www.deck.gallery/"
+  },
+  "homepage": "https://www.deck.gallery/mcp/",
+  "keywords": [
+    "presentations",
+    "pitch decks",
+    "slide design",
+    "brand guidelines",
+    "annual reports"
+  ],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://www.deck.gallery/mcp/",
+  "supportUrl": "https://www.deck.gallery/mcp/#support",
+  "privacyPolicyUrl": "https://www.deck.gallery/privacy/#privacy",
+  "termsOfServiceUrl": "https://www.deck.gallery/privacy/#terms",
+  "repository": "https://github.com/senyil/deck-gallery-claude-plugin"
+}
