@@ -6,6 +6,16 @@ Find ideas for your next presentation in pitch decks, brand guidelines and annua
 
 Deck.gallery returns slide previews when available, deck outlines and links back to each reference. Results follow your connected account's existing access.
 
+## Skills
+
+Version 0.1.1 includes three skills for presentation reference research:
+
+- `best-practices`: use references accurately, inspect supplied images and respect access limits.
+- `search`: find relevant decks and slides, then refine and select useful matches.
+- `analyze-deck`: explain a deck's story and visual choices using verified slides and source links.
+
+The skills guide the existing reference tools. They do not add presentation editing or export tools.
+
 ## Connect
 
 After adding the plugin in Claude, open its Connectors tab, add the Deck.gallery connector if needed, and connect your account through the sign-in flow. On an organization account, an owner may need to add the connector before members connect their own accounts. Claude Code connects to the declared remote server and uses its authorization flow.
@@ -20,7 +30,7 @@ After adding the plugin in Claude, open its Connectors tab, add the Deck.gallery
 
 The plugin connects to `https://mcp.deck.gallery/mcp`. Requests send search text, selected deck identifiers, filters and pagination parameters to Deck.gallery. The service checks account permissions and usage limits before returning results. Its tools read the reference library.
 
-Deck.gallery keeps account and service-usage records. The privacy policy explains data handling and account deletion. This bundle contains connection settings, listing text and the brand icon. It runs no local programs and includes no deck content or credentials.
+Deck.gallery keeps account and service-usage records. The privacy policy explains data handling and account deletion. This bundle contains connection settings, listing text, three skill instruction files and the brand icon. It runs no local programs and includes no deck content or credentials.
 
 ## Help
 
